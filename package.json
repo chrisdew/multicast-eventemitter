@@ -1,0 +1,23 @@
+{ "name" : "multicast-eventemitter"
+, "description" : "LAN wide eventemitter, using multicast."
+, "version" : "0.0.1"
+, "maintainers" :
+  [ { "name": "Chris Dew"
+    , "email": "cmsdew@gmail.com"
+    }
+  ]
+, "bugs" : { "web" : "http://github.com/chrisdew/multicast-eventemitter/issues" }
+, "licenses" : [ { "type" : "MIT" } ]
+, "repositories" :
+  [ { "type" : "git"
+    , "url" : "http://github.com/chrisdew/event-emitter"
+    }
+  ]
+, "main" : "./lib/multicast-eventemitter.js"
+, "engines" : { "node" : ">=0.4.7" }
+, "dependencies" : { "vows" : ">=0.5.2"
+                   , "docco" : ">=0.3.0"
+                   , "node-uuid" : ">=1.1.0"
+                   , "datejs" : ">=0.0.1"
+                   }
+}
