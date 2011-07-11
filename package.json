@@ -1,13 +1,13 @@
 { "name" : "multicast-eventemitter"
 , "description" : "LAN wide eventemitter, using multicast."
-, "version" : "0.0.4"
+, "version" : "0.0.6"
 , "maintainers" :
   [ { "name": "Chris Dew"
     , "email": "cmsdew@gmail.com"
     }
   ]
 , "bugs" : { "web" : "http://github.com/chrisdew/multicast-eventemitter/issues" }
-, "licenses" : [ { "type" : "MIT" } ]
+, "licenses" : [ ]
 , "repositories" :
   [ { "type" : "git"
     , "url" : "http://github.com/chrisdew/event-emitter"
