@@ -1,6 +1,6 @@
 { "name" : "multicast-eventemitter"
 , "description" : "LAN wide eventemitter, using multicast."
-, "version" : "0.0.6"
+, "version" : "0.0.8"
 , "maintainers" :
   [ { "name": "Chris Dew"
     , "email": "cmsdew@gmail.com"
