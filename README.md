@@ -1,6 +1,8 @@
 multicast-eventemitter
 ----------------------
 
+Status: BROKEN BY NODEJS v0.6.0 - awaiting repair.
+
 This package provides a cluster-wide event emitter.  Message sent from any process on any machine on a LAN can be subscribed to by any other process on any other machine.
 
 Multicast is more efficient than broadcast.  If messages were broadcast, then each subscriber would need to discard the the events it wasnt't interested in.  With multicast, this is done by the NIC.
