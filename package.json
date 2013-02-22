@@ -16,7 +16,7 @@
 , "main" : "./lib/multicast-eventemitter.js"
 , "engines" : {
     "node" : "~0.4.0"
-  },
+  }
 , "dependencies" : { "vows" : ">=0.5.2"
                    , "docco" : ">=0.3.0"
                    }
