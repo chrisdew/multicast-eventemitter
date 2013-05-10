@@ -6,14 +6,15 @@ var emitter = mee.getEmitter();
 
 // emit a packet everu second, 
 setInterval(function() {
-  console.log('emitting channelA');
-  emitter.emit('channelA', 'this is channel A', new Date().getTime());
-  console.log('emitting channelB');
-  emitter.emit('channelB', 'this is channel B', new Date().getTime());
+  var now = new Date().getTime();
+  console.log('emitting eventA', now);
+  emitter.emit('eventA', 'this is eventA', now);
+  console.log('emitting eventB', now);
+  emitter.emit('eventB', 'this is eventB', now);
 }, 1000);
 
-// subscribe to channelA events
-emitter.on('channelA', function(text, time) {
-  console.log('message received on channelA:', text, time);
+// subscribe to eventB events
+emitter.on('eventB', function(text, time) {
+  console.log('eventB received...', 'text:', text, 'time:', time);
 });
 

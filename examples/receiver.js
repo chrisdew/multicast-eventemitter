@@ -4,7 +4,7 @@ var mee = require('../lib/multicast-eventemitter');
 
 var emitter = mee.getEmitter();
 
-// subscribe to channelA events
-emitter.on('channelA', function(text, time) {
-  console.log('message received on channelA:', text, time);
+// subscribe to eventA events
+emitter.on('eventA', function(text, time) {
+  console.log('eventA received...', 'text:', text, 'time:', time);
 });

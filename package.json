@@ -1,6 +1,6 @@
 { "name" : "multicast-eventemitter"
 , "description" : "LAN wide eventemitter, using multicast."
-, "version" : "0.2.1"
+, "version" : "0.10.0"
 , "maintainers" :
   [ { "name": "Chris Dew"
     , "email": "cmsdew@gmail.com"
@@ -15,9 +15,9 @@
   ]
 , "main" : "./lib/multicast-eventemitter.js"
 , "engines" : {
-    "node" : "~0.4.0"
+    "node" : "~0.8.0 ~0.10.0"
   }
-, "dependencies" : { "vows" : ">=0.5.2"
-                   , "docco" : ">=0.3.0"
-                   }
+, "devDependencies" : { "vows" : ">=0.5.2"
+                      , "docco" : ">=0.3.0"
+                      }
 }
