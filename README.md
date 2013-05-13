@@ -13,5 +13,5 @@ This currently uses plain multicast.  This has the following drawbacks:
 
 1. Messages are limited to about 1.5KB in length - exceeding this *may* produce a parsing error on receivers.
 
-2. It is unreliable (though we receive 100% of sent messages on our LAN - YMMV)
+2. It is potentially unreliable (though we receive 100% of sent messages on our LAN - YMMV)
 
